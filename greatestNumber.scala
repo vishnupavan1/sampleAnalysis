@@ -3,4 +3,5 @@ object greatestNumber extends App {
   var per =  number.permutations.toList
   var per1 = per.map( a => a.mkString("")).sorted
   println("Highest Number:    "+per1.last)
+  println("NEw change")
 }
